@@ -1,0 +1,29 @@
+{
+  "name": "feliz-views",
+  "version": "0.0.1",
+  "description": "A plugin for feliz.js that enables template rendering for views.",
+  "main": "lib/index.js",
+  "author": "Héctor Menéndez <etor@gik.mx>",
+  "license": "MIT",
+  "analyze": true,
+  "keywords": [
+    "feliz",
+    "plugin",
+    "template",
+    "pug",
+    "jade"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gikmx/feliz-views"
+  },
+  "bugs": {
+    "url": "https://github.com/gikmx/feliz-views/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "inert": "^4.0.1"
+  }
+}
