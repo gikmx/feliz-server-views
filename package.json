@@ -24,6 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "inert": "^4.0.1"
+    "pug": "^2.0.0-beta3",
+    "vision": "^4.1.0"
   }
 }
