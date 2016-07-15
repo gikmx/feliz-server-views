@@ -1,6 +1,6 @@
 {
   "name": "feliz-views",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A plugin for feliz.js that enables template rendering for views.",
   "main": "lib/index.js",
   "author": "Héctor Menéndez <etor@gik.mx>",
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "ejs": "^2.4.2",
+    "nunjucks": "^2.4.2",
     "pug": "^2.0.0-beta3",
     "vision": "^4.1.0"
   },
