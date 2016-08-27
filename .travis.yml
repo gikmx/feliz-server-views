@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+- 6.2
+env:
+- NODE_ENV=production
+# since thr environment is production, manually install dev-dependencies
+before_script: npm install --only=dev
+script: npm run cover:stats
+after_script: npm run cover:send
