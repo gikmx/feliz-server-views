@@ -1,6 +1,7 @@
 'use strict';
 
 const Test = require('feliz.test');
+const Views = require('../lib/views')
 
 Test([
     { desc:'The feliz-views plugin', test: function(tape){
