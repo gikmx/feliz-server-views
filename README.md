@@ -11,8 +11,16 @@ A plugin for feliz.js that enables template rendering for views.
 
 ## API Documentation (WIP)
 
-The default configuration options.
+The initial configuration sent to the feliz instance.
 
+<a name="module_Configuration.path"></a>
+
+### Configuration.path : <code>object</code>
+Paths to register when setting up the views plugin.
+All paths defined here will be made available to the views.
+
+**Kind**: static __optional__ property of <code>[Configuration](#module_Configuration)</code>  
+**Default**: <code>{&quot;undefined&quot;:&quot;&quot;}</code>  
 
 ---
 
