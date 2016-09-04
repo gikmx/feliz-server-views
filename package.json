@@ -1,5 +1,5 @@
 {
-  "name": "feliz-views",
+  "name": "feliz-server-views",
   "version": "0.1.0-beta.18",
   "description": "A plugin for feliz.js that enables template rendering for views.",
   "main": "lib/views.js",
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/gikmx/feliz-views"
+    "url": "https://github.com/gikmx/feliz-server-views"
   },
   "bugs": {
-    "url": "https://github.com/gikmx/feliz-views/issues"
+    "url": "https://github.com/gikmx/feliz-server-views/issues"
   },
   "scripts": {
     "start": "nodemon ./test -x 'npm run docs && npm run debug -s' -w ./lib -w ./test -w ../feliz* | tap-spec",

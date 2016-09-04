@@ -1,4 +1,4 @@
-# feliz-views
+# feliz-server-views
 
 A plugin for feliz.js that enables template rendering for views.
 
